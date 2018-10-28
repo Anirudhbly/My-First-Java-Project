@@ -14,14 +14,15 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
   
-<!--distributionManagement>
+<distributionManagement>
        <repository>
          <id>internal.repo</id>
          <name>Internal repo</name>
-         <url>file:///home/ubuntu/Releases/</url>
+         <url>file:///home/ec2-user/my-app/release</url>
        </repository>
-   </distributionManagement-->
-<distributionManagement>
+   </distributionManagement>
+
+<!--distributionManagement>
   <repository>
     <id>nexus-releases</id>
     <!-- CHANGE HERE by your team nexus server -->
@@ -32,7 +33,7 @@
     <!-- CHANGE HERE by your team nexus server -->
     <url>http://18.222.207.32:8081/repository/maven-snapshots/</url>
   </snapshotRepository>
-</distributionManagement>
+</distributionManagement -->
 
 
 
