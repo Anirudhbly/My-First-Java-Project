@@ -18,7 +18,7 @@
        <repository>
          <id>internal.repo</id>
          <name>Internal repo</name>
-         <url>file:///home/ec2-user/my-app/release</url>
+         <url>file:///var/lib/jenkins/release</url>
        </repository>
    </distributionManagement>
 
